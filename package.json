@@ -1,12 +1,26 @@
 {
-  "name": "gatsby-packages",
-  "private": true,
-  "version": "1.0.0",
-  "repository": "git@github.com:alexluong/gatsby-packages.git",
-  "author": "Alex Luong <alex@alexluong.com>",
+  "name": "@transfusion/gatsby-plugin-use-query-params",
+  "version": "1.0.2",
   "license": "MIT",
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ]
+  "description": "",
+  "author": "Alex Luong <alex@alexluong.com>",
+  "contributors": [
+    "Bryan Kok <bryan.wyern1@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Transfusion/gatsby-plugin-use-query-params.git"
+  },
+  "homepage": "https://github.com/Transfusion/gatsby-plugin-use-query-params/tree/master#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "query-params"
+  ],
+  "peerDependencies": {
+    "gatsby": ">=2.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "use-query-params": ">=0.4.3"
+  }
 }
